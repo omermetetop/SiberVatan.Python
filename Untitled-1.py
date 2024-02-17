@@ -10,7 +10,7 @@ def asal(input_str):
     if input_str.isdigit():
         number = int(input_str)
         if veri(number):
-            print(f"{number} sasaldır.")
+            print(f"{number} asaldır.")
         else:
             print(f"{number}  asal değildir.")
     else:
